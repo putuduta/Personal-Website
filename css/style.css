@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',
+    sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+}
+
+.title-line {
+    width: 80px;
+    height: 3px;
+    background: black;
+    margin: 0 auto;
+}
+
+/* // Header */
+.custom-navbar {
+    background-color: #11698e;
+}
+
+
+#header {
+    background-color: #19456b;
+    min-height: 450px;
+    width: 100%;
+}
+
+.header-name-text {
+    margin-top: 90px;
+}
+
+.header-content {
+    padding-top: 50px;
+}
+
+.w-75 {
+    border-radius: 10px;
+    width: 65%!important;
+    height: 100%;
+}
+
+#aboutme {
+    background-color: #f8f1f1;
+    min-height: 550px;
+    width: 100%;
+}
+
+.aboutme-content-text {
+    text-align: left;
+    padding-top: 100px;
+}
+
+#experiences {
+    background-color: #19456b;
+    min-height: 1370px;
+    width: 100%;
+}
+
+.experience .title-line {
+    background: white;
+}
+
+.card-custom {
+    border-radius: 15px !important;
+    padding: 40px !important;
+    margin: 1rem 0;
+    border: 1px solid #f0f0f0 !important;
+}
+
+.btnLearnMore {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#footer {
+    min-height: 150px;
+    background-color: #11698e;
+}
+
+@media screen and (min-width: 1400px) {
+    #aboutme {
+        min-height: 600px;
+    }
+
+    #experiences {
+        min-height: 1450px;
+    }
+
+    #header {
+        min-height: 550px;
+    }
+
+    .header-content {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #aboutme {
+        min-height: 600px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #experiences {
+        min-height: 1900px;
+    }
+
+    #header {
+        min-height: 550px;
+    }
+
+    .header-content {
+        text-align: center;
+        padding-top: 5px;
+    }
+}
