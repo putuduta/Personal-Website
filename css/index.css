@@ -79,7 +79,15 @@ p {
 .btnLearnMore {
     padding-left: 50px;
     padding-right: 50px;
+    background-color: #19456b;
+}
+
+.btnLearnMore:hover {
     background-color: #11698e;
+}
+
+.card-custom:hover {
+    opacity: 0.6;
 }
 
 #footer {
@@ -91,6 +99,11 @@ p {
     background-color: #f8f1f1;
     min-height: 550px;
     width: 100%;
+}
+
+
+.faicon:hover {
+    opacity: 0.5;
 }
 
 @media screen and (min-width: 1400px) {
@@ -227,6 +240,3 @@ p {
         padding-bottom: 20px;
     }
 }
-
-
-
