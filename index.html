@@ -1,10 +1,10 @@
 <!doctype html>
-<html
-    <html lang="en">
+<html <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>iamputud</title>
+    <title>I'm Putud</title>
 
     <meta name="author" content="I Putu Gede Prama Duta" />
     <meta name="description" content="I Putu Gede Prama Duta" />
@@ -26,19 +26,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
     </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/index.js"></script>
     <link rel="stylesheet" href="css/style.css">
+
+
 </head>
+
 <body class="bg-light">
     <div id="app">
-
-        <nav class="navbar custom-navbar">
+        <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
             <div class="container">
-                <span class="navbar-brand mb-0 h1">
-                    <a href="/" class="text-light">iamputud</a>
-                </span>
+                <a class="navbar-brand" href="/">iamputud</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
+                        <a class="nav-link" href="#experiences">Experiences</a>
+                        <a class="nav-link" href="#education">Education</a>
+                    </div>
+                </div>
             </div>
         </nav>
+
 
         <main>
             <section id="header" class="container-fluid">
@@ -94,7 +108,7 @@
                     <div class="card shadow card-custom  text-dark">
                         <div class="row align-items-center">
                             <div class="col-lg-2 col-md-3 col-5 my-2">
-                                <img src="assets/binusitdiv_logo.jpeg" width="75%" alt="">
+                                <img src="assets/binusitdiv_logo.jpeg" width="50%" alt="">
                             </div>
                             <div class="col-res col-lg-10 col-md-9 col-7 my-2">
                                 <h2>Bina Nusantara IT Division</h2>
@@ -141,7 +155,6 @@
                         </ul>
                     </div>
 
-
                     <div class="card shadow card-custom  text-dark">
                         <div class="row align-items-center">
                             <div class="col-lg-2 col-md-3 col-5 my-2">
@@ -165,12 +178,31 @@
                         </ul>
                     </div>
                 </div>
-                <div class="text-center pt-3">
-                    <button type="button" class="btnLearnMore btn btn-primary">
-                        <a href="https://www.linkedin.com/in/iputugedepramaduta/">Learn More</a>
-                    </button>
+            </section>
+            <section id="education">
+                <div class="container education pt-5">
+                    <div class="title-line"></div>
+                    <h1 class="text-dark text-center pb-5 pt-3">EDUCATION</h1>
+                    <div class="card shadow card-custom  text-dark">
+                        <div class="row align-items-center">
+                            <div class="col-lg-2 col-md-3 col-5 my-2">
+                                <img src="assets/binus_logo.png" width="75%" alt="">
+                            </div>
+                            <div class="col-res col-lg-10 col-md-9 col-7 my-2">
+                                <h2>BINUS Univesity</h2>
+                                <p class="pt-0 mt-0 pb-0 mb-0">Bachelor's degree, Computer Science</p>
+                                <p class="pt-0 mt-0">2019 - 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center pt-5">
+                        <button type="button" class="btnLearnMore btn">
+                            <a class="text-white" href="https://www.linkedin.com/in/iputugedepramaduta/">Learn More</a>
+                        </button>
+                    </div>
                 </div>
             </section>
+
         </main>
 
         <footer id="footer">
