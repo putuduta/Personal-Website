@@ -56,7 +56,7 @@ p {
 
 .aboutme-content-text {
     text-align: left;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #experiences {
@@ -108,11 +108,11 @@ p {
 
 @media screen and (min-width: 1400px) {
     #aboutme {
-        min-height: 600px;
+        min-height: 450px;
     }
 
     #experiences {
-        min-height: 1370px;
+        min-height: 2025px;
     }
 
     #header {
@@ -132,7 +132,7 @@ p {
 
 @media screen and (max-width: 800px) {
     #experiences {
-        min-height: 1450px;
+        min-height: 1500px;
     }
 
     .aboutme-content-text {
@@ -148,7 +148,7 @@ p {
     }
 
     #experiences {
-        min-height: 1500px;
+        min-height: 2420px;
     }
 
     #header {
@@ -173,13 +173,13 @@ p {
 
 @media screen and (max-width: 530px) {
     #aboutme {
-        min-height: 600px;
+        min-height: 450px;
         align-items: center;
         text-align: center;
     }
 
     #experiences {
-        min-height: 1550px;
+        min-height: 2500px;
     }
 
     #header {
@@ -199,19 +199,19 @@ p {
 
 @media screen and (max-width: 430px) {
     #experiences {
-        min-height: 1720px;
+        min-height: 2750px;
     }
 }
 
 @media screen and (max-width: 390px) {
     #experiences {
-        min-height: 1850px;
+        min-height: 2900px;
     }
 }
 
 @media screen and (max-width: 360px) {
     #experiences {
-        min-height: 1850px;
+        min-height: 3150px;
     }
 }
 
@@ -223,7 +223,7 @@ p {
     }
 
     #experiences {
-        min-height: 1670px;
+        min-height: 3450px;
     }
 
     #header {
